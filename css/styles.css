@@ -6,9 +6,13 @@
 
 body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background: hsl(275, 23%, 38%);
-    color: #fff;
+    /* background: hsl(275, 23%, 38%);
+    color: #fff; */
+
+    background: #F9F9F9;
+    color: #333333;
 }
+
 
 
 .course-11{

@@ -2886,7 +2886,7 @@ $(document).ready(() => {
                                                             let mytotalCoursesUnit = courseUnit1 + courseUnit2 + courseUnit3 + courseUnit4 + courseUnit5 + courseUnit6 + courseUnit7 + courseUnit8 + courseUnit9 + courseUnit10 + courseUnit11;
                                                       
                                                             let myTotalGpaFirstSemester = mytotalGPAPerCourse / mytotalCoursesUnit;
-                                                            $(".myFinalResult").text("Your Total GPA for first semester is: " + myTotalGpaFirstSemester + ".0");
+                                                            $(".myFinalResult").text("Your Total GPA for first semester is: " + myTotalGpaFirstSemester );
                                                         
                                                             // Thanking the user 
                                                             $(".Thanks").text("Thank you very much for using this website. If you have any complaint; send a message to me via the number below");
