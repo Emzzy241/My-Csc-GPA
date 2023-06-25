@@ -22,3 +22,8 @@ body{
 .final{
     display: none;
 }
+
+.container a{
+    /* text-decoration: none; */
+    color: #333333;
+}
