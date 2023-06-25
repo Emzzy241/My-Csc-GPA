@@ -2489,35 +2489,60 @@ $(document).ready(() => {
 
                                                     }
                                                     else if (userGrade10 === "B" && userUnits10 === "2") {
-                                                        tenthCoursegpa = 2 * 4;
+                                                        let IntUserUnits2b = parseInt(userUnits10);
+
+                                                        tenthCoursegpa = IntUserUnits2b * 4;
+
+                                                        courseUnit10 = IntUserUnits2b;
+                                                        console.log(courseUnit10);
 
                                                         $(".myTenthResult").text("You had a B in a 2 unit course")
                                                         $(".myTenthResult2").text("and your grade point per course is: " + tenthCoursegpa);
 
                                                     }
                                                     else if (userGrade10 === "C" && userUnits10 === "2") {
-                                                        tenthCoursegpa = 2 * 3;
+                                                        let IntUserUnits2c = parseInt(userUnits10);
+
+                                                        tenthCoursegpa = IntUserUnits2c * 3;
+
+                                                        courseUnit10 = IntUserUnits2c;
+                                                        console.log(courseUnit10);
 
                                                         $(".myTenthResult").text("You had a C in a 2 unit course")
                                                         $(".myTenthResult2").text("and your grade point per course is: " + tenthCoursegpa);
 
                                                     }
                                                     else if (userGrade10 === "D" && userUnits10 === "2") {
-                                                        tenthCoursegpa = 2 * 2;
+                                                        let IntUserUnits2d = parseInt(userUnits10);
+
+                                                        tenthCoursegpa = IntUserUnits2d * 2;
+
+                                                        courseUnit10 = IntUserUnits2d;
+                                                        console.log(courseUnit10);
 
                                                         $(".myTenthResult").text("You had a D in a 2 unit course")
                                                         $(".myTenthResult2").text("and your grade point per course is: " + tenthCoursegpa);
 
                                                     }
                                                     else if (userGrade10 === "E" && userUnits10 === "2") {
-                                                        tenthCoursegpa = 2 * 1;
+                                                        let IntUserUnits2e = parseInt(userUnits10);
+
+                                                        tenthCoursegpa = IntUserUnits2e * 1;
+
+                                                        courseUnit10 = IntUserUnits2e;
+                                                        console.log(courseUnit10);
 
                                                         $(".myTenthResult").text("You had an E in a 2 unit course")
                                                         $(".myTenthResult2").text("and your grade point per course is: " + tenthCoursegpa);
 
                                                     }
                                                     else if (userGrade10 === "F" && userUnits10 === "2") {
-                                                        tenthCoursegpa = 2 * 0;
+                                                        let IntUserUnits2f = parseInt(userUnits10);
+
+                                                        tenthCoursegpa = IntUserUnits2f * 0;
+
+                                                        courseUnit10 = IntUserUnits2f;
+                                                        console.log(courseUnit10);
 
                                                         $(".myTenthResult").text("You had an F in a 2 unit course")
                                                         $(".myTenthResult2").text("and your grade point per course is: " + tenthCoursegpa);
@@ -2528,48 +2553,338 @@ $(document).ready(() => {
 
 
                                                     else if (userGrade10 === "A" && userUnits10 === "3") {
-                                                        tenthCoursegpa = 3 * 5;
+                                                        let IntUserUnits3a = parseInt(userUnits10);
+
+                                                        tenthCoursegpa = IntUserUnits3a * 5;
+
+                                                        courseUnit10 = IntUserUnits3a;
+                                                        console.log(courseUnit10);
 
                                                         $(".myTenthResult").text("You had an A in a 3 unit course")
                                                         $(".myTenthResult2").text("and your grade point per course is: " + tenthCoursegpa);
 
                                                     }
                                                     else if (userGrade10 === "B" && userUnits10 === "3") {
-                                                        tenthCoursegpa = 3 * 4;
+                                                        let IntUserUnits3b = parseInt(userUnits10);
+
+                                                        tenthCoursegpa = IntUserUnits3b * 4;
+
+                                                        courseUnit10 = IntUserUnits3b;
+                                                        console.log(courseUnit10);
 
                                                         $(".myTenthResult").text("You had a B in a 3 unit course")
                                                         $(".myTenthResult2").text("and your grade point per course is: " + tenthCoursegpa);
 
                                                     }
                                                     else if (userGrade10 === "C" && userUnits10 === "3") {
-                                                        tenthCoursegpa = 3 * 3;
+                                                        let IntUserUnits3c = parseInt(userUnits10);
+
+                                                        tenthCoursegpa = IntUserUnits3c * 3;
+
+                                                        courseUnit10 = IntUserUnits3c;
+                                                        console.log(courseUnit10);
 
                                                         $(".myTenthResult").text("You had a C in a 3 unit course")
                                                         $(".myTenthResult2").text("and your grade point per course is: " + tenthCoursegpa);
 
                                                     }
                                                     else if (userGrade10 === "D" && userUnits10 === "3") {
-                                                        tenthCoursegpa = 3 * 2;
+                                                        let IntUserUnits3d = parseInt(userUnits10);
+
+                                                        tenthCoursegpa = IntUserUnits3d * 2;
+
+                                                        courseUnit10 = IntUserUnits3d;
+                                                        console.log(courseUnit10);
 
                                                         $(".myTenthResult").text("You had a D in a 3 unit course")
                                                         $(".myTenthResult2").text("and your grade point per course is: " + tenthCoursegpa);
 
                                                     }
                                                     else if (userGrade10 === "E" && userUnits10 === "3") {
-                                                        tenthCoursegpa = 3 * 1;
+                                                        let IntUserUnits3e = parseInt(userUnits10);
+
+                                                        tenthCoursegpa = IntUserUnits3e * 1;
+
+                                                        courseUnit10 = IntUserUnits3e;
+                                                        console.log(courseUnit10);
 
                                                         $(".myTenthResult").text("You had an E in a 3 unit course")
                                                         $(".myTenthResult2").text("and your grade point per course is: " + tenthCoursegpa);
 
                                                     }
                                                     else if (userGrade10 === "F" && userUnits10 === "3") {
-                                                        tenthCoursegpa = 3 * 0;
+                                                        let IntUserUnits3f = parseInt(userUnits10);
+
+                                                        tenthCoursegpa = IntUserUnits3f * 0;
+
+                                                        courseUnit10 = IntUserUnits3f;
+                                                        console.log(courseUnit10);
 
                                                         $(".myTenthResult").text("You had an F in a 3 unit course")
                                                         $(".myTenthResult2").text("and your grade point per course is: " + tenthCoursegpa);
 
                                                     }
 
+
+
+
+
+
+
+
+                                                    // checking the eleventh course
+
+                                                    $(".check11").click(() => {
+                                                        let userUnits11 = $(".unit11").find(":selected").val();
+                                                        let userGrade11 = $(".grade11").find(":selected").val();
+
+
+
+                                                        // For a 1 unit course and several grades
+                                                        if (userGrade11 === "A" && userUnits11 === "1") {
+                                                            let IntUserUnits1a = parseInt(userUnits11);
+
+                                                            eleventhCoursegpa = IntUserUnits1a * 5;
+
+                                                            courseUnit11 = IntUserUnits1a;
+                                                            console.log(courseUnit11);
+
+                                                            $(".myEleventhResult").text("You had an A in a 1 unit course")
+                                                            $(".myEleventhResult2").text("and your grade point per course is: " + eleventhCoursegpa);
+
+                                                        }
+                                                        else if (userGrade11 === "B" && userUnits11 === "1") {
+                                                            let IntUserUnits1b = parseInt(userUnits11);
+
+                                                            eleventhCoursegpa = IntUserUnits1b * 4;
+
+                                                            courseUnit11 = IntUserUnits1b;
+                                                            console.log(courseUnit11);
+
+
+                                                            $(".myEleventhResult").text("You had a B in a 1 unit course")
+                                                            $(".myEleventhResult2").text("and your grade point per course is: " + eleventhCoursegpa);
+
+                                                        }
+                                                        else if (userGrade11 === "C" && userUnits11 === "1") {
+                                                            let IntUserUnits1c = parseInt(userUnits11);
+
+                                                            eleventhCoursegpa = IntUserUnits1c * 3;
+
+                                                            courseUnit11 = IntUserUnits1c;
+                                                            console.log(courseUnit11);
+
+                                                            $(".myEleventhResult").text("You had a C in a 1 unit course")
+                                                            $(".myEleventhResult2").text("and your grade point per course is: " + eleventhCoursegpa);
+
+                                                        }
+                                                        else if (userGrade11 === "D" && userUnits11 === "1") {
+                                                            let IntUserUnits1d = parseInt(userUnits11);
+
+                                                            eleventhCoursegpa = IntUserUnits1d * 2;
+
+                                                            courseUnit11 = IntUserUnits1d;
+                                                            console.log(courseUnit11);
+
+                                                            $(".myEleventhResult").text("You had a D in a 1 unit course")
+                                                            $(".myEleventhResult2").text("and your grade point per course is: " + eleventhCoursegpa);
+
+                                                        }
+                                                        else if (userGrade11 === "E" && userUnits11 === "1") {
+                                                            let IntUserUnits1e = parseInt(userUnits11);
+
+                                                            eleventhCoursegpa = IntUserUnits1e * 1;
+
+                                                            courseUnit11 = IntUserUnits1e;
+                                                            console.log(courseUnit11);
+
+                                                            $(".myEleventhResult").text("You had an E in a 1 unit course")
+                                                            $(".myEleventhResult2").text("and your grade point per course is: " + eleventhCoursegpa);
+
+                                                        }
+                                                        else if (userGrade11 === "F" && userUnits11 === "1") {
+                                                            let IntUserUnits1f = parseInt(userUnits11);
+
+                                                            eleventhCoursegpa = IntUserUnits1f * 0;
+
+                                                            courseUnit11 = IntUserUnits1f;
+                                                            console.log(courseUnit11);
+
+                                                            $(".myEleventhResult").text("You had an F in a 1 unit course")
+                                                            $(".myEleventhResult2").text("and your grade point per course is: " + eleventhCoursegpa);
+
+                                                        }
+
+                                                        // For 2 units now
+
+                                                        else if (userGrade11 === "A" && userUnits11 === "2") {
+                                                            let IntUserUnits2a = parseInt(userUnits11);
+
+                                                            eleventhCoursegpa = IntUserUnits2a * 5;
+
+                                                            courseUnit11 = IntUserUnits2a;
+                                                            console.log(courseUnit11);
+
+                                                            $(".myEleventhResult").text("You had an A in a 2 unit course")
+                                                            $(".myEleventhResult2").text("and your grade point per course is: " + eleventhCoursegpa);
+
+                                                        }
+                                                        else if (userGrade11 === "B" && userUnits11 === "2") {
+                                                            let IntUserUnits2b = parseInt(userUnits11);
+
+                                                            eleventhCoursegpa = IntUserUnits2b * 4;
+
+                                                            courseUnit11 = IntUserUnits2b;
+                                                            console.log(courseUnit11);
+
+                                                            $(".myEleventhResult").text("You had a B in a 2 unit course")
+                                                            $(".myEleventhResult2").text("and your grade point per course is: " + eleventhCoursegpa);
+
+                                                        }
+                                                        else if (userGrade11 === "C" && userUnits11 === "2") {
+                                                            let IntUserUnits2c = parseInt(userUnits11);
+
+                                                            eleventhCoursegpa = IntUserUnits2c * 3;
+
+                                                            courseUnit11 = IntUserUnits2c;
+                                                            console.log(courseUnit11);
+
+                                                            $(".myEleventhResult").text("You had a C in a 2 unit course")
+                                                            $(".myEleventhResult2").text("and your grade point per course is: " + eleventhCoursegpa);
+
+                                                        }
+                                                        else if (userGrade11 === "D" && userUnits11 === "2") {
+                                                            let IntUserUnits2d = parseInt(userUnits11);
+
+                                                            eleventhCoursegpa = IntUserUnits2d * 2;
+
+                                                            courseUnit11 = IntUserUnits2d;
+                                                            console.log(courseUnit11);
+
+                                                            $(".myEleventhResult").text("You had a D in a 2 unit course")
+                                                            $(".myEleventhResult2").text("and your grade point per course is: " + eleventhCoursegpa);
+
+                                                        }
+                                                        else if (userGrade11 === "E" && userUnits11 === "2") {
+                                                            let IntUserUnits2e = parseInt(userUnits11);
+
+                                                            eleventhCoursegpa = IntUserUnits2e * 1;
+
+                                                            courseUnit11 = IntUserUnits2e;
+                                                            console.log(courseUnit11);
+
+                                                            $(".myEleventhResult").text("You had an E in a 2 unit course")
+                                                            $(".myEleventhResult2").text("and your grade point per course is: " + eleventhCoursegpa);
+
+                                                        }
+                                                        else if (userGrade11 === "F" && userUnits11 === "2") {
+                                                            let IntUserUnits2f = parseInt(userUnits11);
+
+                                                            eleventhCoursegpa = IntUserUnits2f * 0;
+
+                                                            courseUnit11 = IntUserUnits2f;
+                                                            console.log(courseUnit11);
+
+                                                            $(".myEleventhResult").text("You had an F in a 2 unit course")
+                                                            $(".myEleventhResult2").text("and your grade point per course is: " + eleventhCoursegpa);
+
+                                                        }
+
+                                                        // For 3 unit courses now
+
+
+                                                        else if (userGrade11 === "A" && userUnits11 === "3") {
+                                                            let IntUserUnits3a = parseInt(userUnits11);
+
+                                                            eleventhCoursegpa = IntUserUnits3a * 5;
+
+                                                            courseUnit11 = IntUserUnits3a;
+                                                            console.log(courseUnit11);
+
+                                                            $(".myEleventhResult").text("You had an A in a 3 unit course")
+                                                            $(".myEleventhResult2").text("and your grade point per course is: " + eleventhCoursegpa);
+
+                                                        }
+                                                        else if (userGrade11 === "B" && userUnits11 === "3") {
+                                                            let IntUserUnits3b = parseInt(userUnits11);
+
+                                                            eleventhCoursegpa = IntUserUnits3b * 4;
+
+                                                            courseUnit11 = IntUserUnits3b;
+                                                            console.log(courseUnit11);
+
+                                                            $(".myEleventhResult").text("You had a B in a 3 unit course")
+                                                            $(".myEleventhResult2").text("and your grade point per course is: " + eleventhCoursegpa);
+
+                                                        }
+                                                        else if (userGrade11 === "C" && userUnits11 === "3") {
+                                                            let IntUserUnits3c = parseInt(userUnits11);
+
+                                                            eleventhCoursegpa = IntUserUnits3c * 3;
+
+                                                            courseUnit11 = IntUserUnits3c;
+                                                            console.log(courseUnit11);
+
+                                                            $(".myEleventhResult").text("You had a C in a 3 unit course")
+                                                            $(".myEleventhResult2").text("and your grade point per course is: " + eleventhCoursegpa);
+
+                                                        }
+                                                        else if (userGrade11 === "D" && userUnits11 === "3") {
+                                                            let IntUserUnits3d = parseInt(userUnits11);
+
+                                                            eleventhCoursegpa = IntUserUnits3d * 2;
+
+                                                            courseUnit11 = IntUserUnits3d;
+                                                            console.log(courseUnit11);
+
+                                                            $(".myEleventhResult").text("You had a D in a 3 unit course")
+                                                            $(".myEleventhResult2").text("and your grade point per course is: " + eleventhCoursegpa);
+
+                                                        }
+                                                        else if (userGrade11 === "E" && userUnits11 === "3") {
+                                                            let IntUserUnits3e = parseInt(userUnits11);
+
+                                                            eleventhCoursegpa = IntUserUnits3e * 1;
+
+                                                            courseUnit11 = IntUserUnits3e;
+                                                            console.log(courseUnit11);
+
+                                                            $(".myEleventhResult").text("You had an E in a 3 unit course")
+                                                            $(".myEleventhResult2").text("and your grade point per course is: " + eleventhCoursegpa);
+
+                                                        }
+                                                        else if (userGrade11 === "F" && userUnits11 === "3") {
+                                                            let IntUserUnits3f = parseInt(userUnits11);
+
+                                                            eleventhCoursegpa = IntUserUnits3f * 0;
+
+                                                            courseUnit11 = IntUserUnits3f;
+                                                            console.log(courseUnit11);
+
+                                                            $(".myEleventhResult").text("You had an F in a 3 unit course")
+                                                            $(".myEleventhResult2").text("and your grade point per course is: " + eleventhCoursegpa);
+
+                                                        }
+
+
+                                                        let mytotalGPA = oneCoursegpa + twoCoursegpa + threeCoursegpa + fourthCoursegpa + fifthCoursegpa + sixthCoursegpa + seventhCoursegpa + eightCoursegpa + ninthCoursegpa + tenthCoursegpa + eleventhCoursegpa;
+                                                        console.log(mytotalGPA);
+
+                                                        // let mytotalCoursesUnit = courseUnit1 + courseUnit2 + courseUnit3 + courseUnit4 + courseUnit5 + courseUnit6 + courseUnit7;
+                                                        let mytotalCoursesUnit = courseUnit1 + courseUnit2 + courseUnit3 + courseUnit4 + courseUnit5 + courseUnit6 + courseUnit7 + courseUnit8 + courseUnit9 + courseUnit10 + courseUnit11;
+                                                        console.log(mytotalCoursesUnit);
+
+
+
+
+                                                        // Showing the final result now when they click on the final-result button
+
+                                                        $("#finalResult").click(() => {
+
+                                                        });
+
+
+                                                    });
 
                                                 });
 
@@ -2627,151 +2942,7 @@ $(document).ready(() => {
 
 
 
-            // checking the eleventh course
 
-            $(".check11").click(() => {
-                let userUnits11 = $(".unit11").find(":selected").val();
-                let userGrade11 = $(".grade11").find(":selected").val();
-
-
-
-                // For a 1 unit course and several grades
-                if (userGrade11 === "A" && userUnits11 === "1") {
-                    eleventhCoursegpa = 1 * 5;
-
-                    $(".myEleventhResult").text("You had an A in a 1 unit course")
-                    $(".myEleventhResult2").text("and your grade point per course is: " + eleventhCoursegpa);
-
-                }
-                else if (userGrade11 === "B" && userUnits11 === "1") {
-                    eleventhCoursegpa = 1 * 4;
-
-                    $(".myEleventhResult").text("You had a B in a 1 unit course")
-                    $(".myEleventhResult2").text("and your grade point per course is: " + eleventhCoursegpa);
-
-                }
-                else if (userGrade11 === "C" && userUnits11 === "1") {
-                    eleventhCoursegpa = 1 * 3;
-
-                    $(".myEleventhResult").text("You had a C in a 1 unit course")
-                    $(".myEleventhResult2").text("and your grade point per course is: " + eleventhCoursegpa);
-
-                }
-                else if (userGrade11 === "D" && userUnits11 === "1") {
-                    eleventhCoursegpa = 1 * 2;
-
-                    $(".myEleventhResult").text("You had a D in a 1 unit course")
-                    $(".myEleventhResult2").text("and your grade point per course is: " + eleventhCoursegpa);
-
-                }
-                else if (userGrade11 === "E" && userUnits11 === "1") {
-                    eleventhCoursegpa = 1 * 1;
-
-                    $(".myEleventhResult").text("You had an E in a 1 unit course")
-                    $(".myEleventhResult2").text("and your grade point per course is: " + eleventhCoursegpa);
-
-                }
-                else if (userGrade11 === "F" && userUnits11 === "1") {
-                    eleventhCoursegpa = 1 * 0;
-
-                    $(".myEleventhResult").text("You had an F in a 1 unit course")
-                    $(".myEleventhResult2").text("and your grade point per course is: " + eleventhCoursegpa);
-
-                }
-
-                // For 2 units now
-
-                else if (userGrade11 === "A" && userUnits11 === "2") {
-                    eleventhCoursegpa = 2 * 5;
-
-                    $(".myEleventhResult").text("You had an A in a 2 unit course")
-                    $(".myEleventhResult2").text("and your grade point per course is: " + eleventhCoursegpa);
-
-                }
-                else if (userGrade11 === "B" && userUnits11 === "2") {
-                    eleventhCoursegpa = 2 * 4;
-
-                    $(".myEleventhResult").text("You had a B in a 2 unit course")
-                    $(".myEleventhResult2").text("and your grade point per course is: " + eleventhCoursegpa);
-
-                }
-                else if (userGrade11 === "C" && userUnits11 === "2") {
-                    eleventhCoursegpa = 2 * 3;
-
-                    $(".myEleventhResult").text("You had a C in a 2 unit course")
-                    $(".myEleventhResult2").text("and your grade point per course is: " + eleventhCoursegpa);
-
-                }
-                else if (userGrade11 === "D" && userUnits11 === "2") {
-                    eleventhCoursegpa = 2 * 2;
-
-                    $(".myEleventhResult").text("You had a D in a 2 unit course")
-                    $(".myEleventhResult2").text("and your grade point per course is: " + eleventhCoursegpa);
-
-                }
-                else if (userGrade11 === "E" && userUnits11 === "2") {
-                    eleventhCoursegpa = 2 * 1;
-
-                    $(".myEleventhResult").text("You had an E in a 2 unit course")
-                    $(".myEleventhResult2").text("and your grade point per course is: " + eleventhCoursegpa);
-
-                }
-                else if (userGrade11 === "F" && userUnits11 === "2") {
-                    eleventhCoursegpa = 2 * 0;
-
-                    $(".myEleventhResult").text("You had an F in a 2 unit course")
-                    $(".myEleventhResult2").text("and your grade point per course is: " + eleventhCoursegpa);
-
-                }
-
-                // For 3 unit courses now
-
-
-                else if (userGrade11 === "A" && userUnits11 === "3") {
-                    eleventhCoursegpa = 3 * 5;
-
-                    $(".myEleventhResult").text("You had an A in a 3 unit course")
-                    $(".myEleventhResult2").text("and your grade point per course is: " + eleventhCoursegpa);
-
-                }
-                else if (userGrade11 === "B" && userUnits11 === "3") {
-                    eleventhCoursegpa = 3 * 4;
-
-                    $(".myEleventhResult").text("You had a B in a 3 unit course")
-                    $(".myEleventhResult2").text("and your grade point per course is: " + eleventhCoursegpa);
-
-                }
-                else if (userGrade11 === "C" && userUnits11 === "3") {
-                    eleventhCoursegpa = 3 * 3;
-
-                    $(".myEleventhResult").text("You had a C in a 3 unit course")
-                    $(".myEleventhResult2").text("and your grade point per course is: " + eleventhCoursegpa);
-
-                }
-                else if (userGrade11 === "D" && userUnits11 === "3") {
-                    eleventhCoursegpa = 3 * 2;
-
-                    $(".myEleventhResult").text("You had a D in a 3 unit course")
-                    $(".myEleventhResult2").text("and your grade point per course is: " + eleventhCoursegpa);
-
-                }
-                else if (userGrade11 === "E" && userUnits11 === "3") {
-                    eleventhCoursegpa = 3 * 1;
-
-                    $(".myEleventhResult").text("You had an E in a 3 unit course")
-                    $(".myEleventhResult2").text("and your grade point per course is: " + eleventhCoursegpa);
-
-                }
-                else if (userGrade11 === "F" && userUnits11 === "3") {
-                    eleventhCoursegpa = 3 * 0;
-
-                    $(".myEleventhResult").text("You had an F in a 3 unit course")
-                    $(".myEleventhResult2").text("and your grade point per course is: " + eleventhCoursegpa);
-
-                }
-
-
-            });
 
 
             // getting the total Unit
