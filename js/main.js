@@ -2876,11 +2876,21 @@ $(document).ready(() => {
 
 
 
-
+                                                        
                                                         // Showing the final result now when they click on the final-result button
+                                                        $(".final").fadeIn();
 
                                                         $("#finalResult").click(() => {
-
+                                                            // In calculating Unilorin's CGPA(my school)
+                                                            let mytotalGPAPerCourse = oneCoursegpa + twoCoursegpa + threeCoursegpa + fourthCoursegpa + fifthCoursegpa + sixthCoursegpa + seventhCoursegpa + eightCoursegpa + ninthCoursegpa + tenthCoursegpa + eleventhCoursegpa;
+                                                            let mytotalCoursesUnit = courseUnit1 + courseUnit2 + courseUnit3 + courseUnit4 + courseUnit5 + courseUnit6 + courseUnit7 + courseUnit8 + courseUnit9 + courseUnit10 + courseUnit11;
+                                                      
+                                                            let myTotalGpaFirstSemester = mytotalGPAPerCourse / mytotalCoursesUnit;
+                                                            $(".myFinalResult").text("Your Total GPA for first semester is: " + myTotalGpaFirstSemester + ".0");
+                                                        
+                                                            // Thanking the user 
+                                                            $(".Thanks").text("Thank you very much for using this website. If you have any complaint; send a message to me via the number below");
+                                                            $(".stayTuned").text("Stay tuned for upcoming features like the CGPA that works for 1st and 2nd semester");
                                                         });
 
 

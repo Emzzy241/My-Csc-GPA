@@ -4,7 +4,17 @@
     box-sizing: border-box;
 } */
 
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: hsl(275, 23%, 38%);
+    color: #fff;
+}
+
 
 .course-11{
+    display: none;
+}
+
+.final{
     display: none;
 }
